@@ -1,0 +1,42 @@
+
+
+public class Repaso {
+    public static void main (String[] args) {
+        final double IVA = 0.19;
+        final int DIAS_SEMANA =7;
+
+        System.out.println("El Valor del IVA es: " + IVA);
+        System.out.println("Número de días en una semana: " + DIAS_SEMANA);
+
+        //final double IVA = 0.19;
+        //ESTO generara un error de compilacion porque IVA es una constante
+
+        //!Suma
+        int a = 5;
+        int b = 10;
+        int suma = a + b;
+        System.out.println("La suma de " + a + " y " + b + " es: " + suma);
+
+        //!Resta
+        int c = 15;
+        int d = 5;
+        int resta = c - d;
+        System.out.println("La resta de " + c + " y " + d + " es: " + resta);
+        //!Multiplicación
+        int multiplicacion = a * b;
+        System.out.println("La multiplicación de " + a + " y " + b + " es: " + multiplicacion);
+
+        //!División
+        int division = c / d;
+        System.out.println("La división de " + c + " y " + d + " es: " + division);
+
+        //!Módulo
+        int modulo = c % d;
+        System.out.println("El modulo de " + c + "entre " + d + " es: " + modulo);
+
+        System.out.println(10 % 3);
+        
+
+
+
+    }
